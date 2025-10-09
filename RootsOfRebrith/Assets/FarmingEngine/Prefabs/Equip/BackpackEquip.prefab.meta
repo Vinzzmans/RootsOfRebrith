@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6626195c056740d0a5e0c4d7394095a0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Equip/BackpackEquip.prefab
+  uploadId: 720558

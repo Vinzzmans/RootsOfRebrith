@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ecd9fac48b227db47ac33c0f0f3063fb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/BirdLeg.mat
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 76cb4d3ec8314ad1b5d4369c63479380
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/PotatoPlantS3.prefab
+  uploadId: 720558

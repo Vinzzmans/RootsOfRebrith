@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee86237b5041d354e852fc3e38835fea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Other/TrapItem.asset
+  uploadId: 720558

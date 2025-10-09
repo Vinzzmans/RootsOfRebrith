@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a0b3c24bb9f61b3468983fd860c4adb3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/UI/ItemSlotPanel.cs
+  uploadId: 720558

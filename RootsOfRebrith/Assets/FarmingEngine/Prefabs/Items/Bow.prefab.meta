@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0cdf99a5b9ae4d7ebeadad20c075652b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Bow.prefab
+  uploadId: 720558

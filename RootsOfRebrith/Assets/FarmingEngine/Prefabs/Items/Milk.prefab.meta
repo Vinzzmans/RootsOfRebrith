@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1916efc79ef212f4891587d46877223c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Milk.prefab
+  uploadId: 720558

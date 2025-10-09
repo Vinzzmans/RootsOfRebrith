@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 26b509c3cf1b2614184b2d639060b6ed
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/CowBaby.prefab
+  uploadId: 720558

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2bd3de0ca73f4b6b8804afab6b1a4c62
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/WaterPond.mat
+  uploadId: 720558

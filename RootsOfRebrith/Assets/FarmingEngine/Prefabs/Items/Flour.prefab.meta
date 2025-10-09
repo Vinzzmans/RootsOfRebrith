@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7502ce902f53c9148902f0810df9cf21
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Flour.prefab
+  uploadId: 720558

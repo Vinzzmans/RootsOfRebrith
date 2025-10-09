@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cdf9d2873cd646f883bce6cc18a8092c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Animations/SlotGain.anim
+  uploadId: 720558

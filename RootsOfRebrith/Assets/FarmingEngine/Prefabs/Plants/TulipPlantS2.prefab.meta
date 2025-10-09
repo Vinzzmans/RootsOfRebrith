@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0f6a0b4ecfe14c04b8b0e293afe06cd8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/TulipPlantS2.prefab
+  uploadId: 720558

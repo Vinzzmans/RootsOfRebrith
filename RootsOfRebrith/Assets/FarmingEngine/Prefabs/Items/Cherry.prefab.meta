@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a11243b1ca4b57d478f01fdcdb39390e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Cherry.prefab
+  uploadId: 720558

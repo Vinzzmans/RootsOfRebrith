@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16a114c8030a4c6bb5ebd9119a453ec5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 20000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/ShadersPreload.shadervariants
+  uploadId: 720558

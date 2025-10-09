@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ee9e509738ebda46bc4194ba7e9b7bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Plants/OakTree.asset
+  uploadId: 720558

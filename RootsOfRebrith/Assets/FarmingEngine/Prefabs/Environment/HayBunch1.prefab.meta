@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b384198b40655654a9e5b66c02593474
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Environment/HayBunch1.prefab
+  uploadId: 720558

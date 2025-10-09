@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 44530c6fe7454dbda09fd3b35b984a02
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Candle.prefab
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0b271ab5d1fd40d4bb9d84a6a31973f4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Environment/Rock1.prefab
+  uploadId: 720558

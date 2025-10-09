@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6e42c564ae20a1141a5763086007e06c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/FX/HeavyRainFX.prefab
+  uploadId: 720558

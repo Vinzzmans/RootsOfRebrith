@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cd5a89e1b0004fffbed1ca776e31738c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Egg.prefab
+  uploadId: 720558

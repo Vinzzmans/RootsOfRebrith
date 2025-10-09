@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f812499ada5ac4d49b9fac3e163d6327
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Actions/ActionGoldCoin.cs
+  uploadId: 720558

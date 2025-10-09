@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f96e14c91d234054984a2cbc877d23e7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/HealingMix.prefab
+  uploadId: 720558

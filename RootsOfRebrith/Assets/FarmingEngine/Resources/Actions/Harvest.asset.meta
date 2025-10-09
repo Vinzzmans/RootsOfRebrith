@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 800f7b70f9fa5d0428198e7672915497
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Actions/Harvest.asset
+  uploadId: 720558

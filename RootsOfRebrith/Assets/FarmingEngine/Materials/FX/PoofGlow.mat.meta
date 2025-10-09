@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9ed5d9544d824c008f5733290028d425
+timeCreated: 1445967777
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/FX/PoofGlow.mat
+  uploadId: 720558

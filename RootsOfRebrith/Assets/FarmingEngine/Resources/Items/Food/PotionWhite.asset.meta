@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c14d84b21cb79b4e9c45cb95f2cce00
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Food/PotionWhite.asset
+  uploadId: 720558

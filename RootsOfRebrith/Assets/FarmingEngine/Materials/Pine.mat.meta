@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3544181534cb6c647be01ee93e721c0e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/Pine.mat
+  uploadId: 720558

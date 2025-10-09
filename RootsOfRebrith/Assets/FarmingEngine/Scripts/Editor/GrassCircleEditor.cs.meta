@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ce6ff82aa1ff1ee468a4bbb0dc260443
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Editor/GrassCircleEditor.cs
+  uploadId: 720558

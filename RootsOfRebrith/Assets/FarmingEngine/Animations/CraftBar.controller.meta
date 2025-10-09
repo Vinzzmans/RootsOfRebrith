@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e06fbcb480d64213ade3fcfc81954126
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Animations/CraftBar.controller
+  uploadId: 720558

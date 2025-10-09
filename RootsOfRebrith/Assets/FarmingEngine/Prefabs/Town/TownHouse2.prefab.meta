@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3f9acb7a1951cb9488634eae0affa53c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Town/TownHouse2.prefab
+  uploadId: 720558

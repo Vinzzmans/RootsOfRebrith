@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 85b83cf30f37be846afd94e3a8ac4fb5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Gameplay/Soil.cs
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c7bfa3e1c5c7401781442f4fde7e143a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Pokebowl.prefab
+  uploadId: 720558

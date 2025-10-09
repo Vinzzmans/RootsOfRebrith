@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ba2394384c7c4f88afaed5ba5f0d2d2e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/Bee.prefab
+  uploadId: 720558

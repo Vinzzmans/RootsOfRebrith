@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 85524fa260bf8f64aa493a922796d403
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Terrain/Road.prefab
+  uploadId: 720558

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 92441ec5b97b83e4fa7bfd606d3026ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Actions/ActionItemStack.cs
+  uploadId: 720558

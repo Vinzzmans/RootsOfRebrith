@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc2a9600f55f411a9efae71e385f1335
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/MushroomRed.prefab
+  uploadId: 720558

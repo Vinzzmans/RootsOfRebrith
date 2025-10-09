@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a638d8893bc942c7bf6183800d38eab9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/TheCamera3PS.prefab
+  uploadId: 720558

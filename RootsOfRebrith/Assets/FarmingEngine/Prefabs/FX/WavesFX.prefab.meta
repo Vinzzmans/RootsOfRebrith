@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0392890a5a934dff8e1e535549fbac4f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/FX/WavesFX.prefab
+  uploadId: 720558

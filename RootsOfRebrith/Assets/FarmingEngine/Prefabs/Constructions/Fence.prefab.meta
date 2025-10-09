@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6e39a212688bfe4998f40fe089ce3d1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Fence.prefab
+  uploadId: 720558

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 653bbac4a656dc041804de21aba47b0c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Food/SeedStrawberry.asset
+  uploadId: 720558

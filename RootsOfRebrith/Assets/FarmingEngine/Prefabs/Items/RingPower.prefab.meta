@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 519b62194e0d48f9856152fd5be788c3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/RingPower.prefab
+  uploadId: 720558

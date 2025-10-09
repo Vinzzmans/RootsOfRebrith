@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b7364250c241ae42990a1404f49abd3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Bean.prefab
+  uploadId: 720558

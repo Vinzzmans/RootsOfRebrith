@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f60499cd09a96aa43a44a6024563863d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/Hive.mat
+  uploadId: 720558

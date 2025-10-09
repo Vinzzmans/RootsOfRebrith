@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 703b86ec0ed84de98b95b8678647b6e8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Equip/HatHalloweenEquip.prefab
+  uploadId: 720558

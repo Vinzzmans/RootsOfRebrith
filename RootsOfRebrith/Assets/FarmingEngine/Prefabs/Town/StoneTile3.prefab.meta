@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 21315ff76bd32fb429992dec100da193
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Town/StoneTile3.prefab
+  uploadId: 720558

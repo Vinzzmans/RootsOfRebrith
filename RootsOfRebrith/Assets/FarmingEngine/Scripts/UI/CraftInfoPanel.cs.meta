@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 92bd05b0eba87d3488c435ffc9cfe399
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/UI/CraftInfoPanel.cs
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f3363781ef2977a418d93dc53360235d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/Cow.prefab
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db977c61ff9ea154dad062cc8e08dc37
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Town/Bench.prefab
+  uploadId: 720558

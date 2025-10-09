@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 698d75e6e881b5a4bb8788db6de48208
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/Skin.mat
+  uploadId: 720558

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 044bce4775ed57e409a289d7a6b2b261
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Characters/Butterfly.asset
+  uploadId: 720558

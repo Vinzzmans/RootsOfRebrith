@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 038b89b273278ce40b939f3e0fcba0b0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scenes/Mine/MineLight.lighting
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0b2c8542037b4d3c98f86d12d59225d7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/BeeHive.prefab
+  uploadId: 720558

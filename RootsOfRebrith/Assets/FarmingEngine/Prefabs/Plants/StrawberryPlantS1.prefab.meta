@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c92cbf2a943b99f4f9f89071cd054b54
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/StrawberryPlantS1.prefab
+  uploadId: 720558

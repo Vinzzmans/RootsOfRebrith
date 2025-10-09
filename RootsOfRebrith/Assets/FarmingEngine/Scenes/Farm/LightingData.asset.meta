@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47726f87aa07439eb07b1106011af674
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scenes/Farm/LightingData.asset
+  uploadId: 720558

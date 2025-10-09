@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 86281634c3351d64cbd7333a50637171
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Gameplay/AnimalLivestock.cs
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b529950ef1567044d9f864fe2b779279
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Bacon.prefab
+  uploadId: 720558

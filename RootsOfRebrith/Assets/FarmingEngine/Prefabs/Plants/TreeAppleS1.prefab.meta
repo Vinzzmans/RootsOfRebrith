@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: be43d58b2984dfd4fb8e99b66bdb4ec7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/TreeAppleS1.prefab
+  uploadId: 720558

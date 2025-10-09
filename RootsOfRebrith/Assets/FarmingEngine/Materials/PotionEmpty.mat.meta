@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d62d0d50183342d0bcf225ac88e27551
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/PotionEmpty.mat
+  uploadId: 720558

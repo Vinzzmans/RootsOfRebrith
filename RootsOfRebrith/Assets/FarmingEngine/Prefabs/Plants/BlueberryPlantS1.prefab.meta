@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dd27af8d4cf575845839632879660be0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/BlueberryPlantS1.prefab
+  uploadId: 720558

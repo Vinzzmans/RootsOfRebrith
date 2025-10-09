@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c4c7abec08fd344ba4facd2b43d3ade
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Models/Animals/Chicken.controller
+  uploadId: 720558

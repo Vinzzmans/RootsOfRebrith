@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ff2cce15dda14b39bb9b15f96c101966
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/ButterflyPink.prefab
+  uploadId: 720558

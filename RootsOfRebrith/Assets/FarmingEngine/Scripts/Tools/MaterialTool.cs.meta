@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c4fd8db22a746484f9d1fd08ac25dacc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Tools/MaterialTool.cs
+  uploadId: 720558

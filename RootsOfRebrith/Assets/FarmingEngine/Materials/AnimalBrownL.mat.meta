@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ddb13da93ecdfb4eb9b1a154e46a2b1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/AnimalBrownL.mat
+  uploadId: 720558

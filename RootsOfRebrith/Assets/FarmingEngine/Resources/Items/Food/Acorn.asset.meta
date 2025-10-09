@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6aefdc54225c3e4e9c6356889501213
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Food/Acorn.asset
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 18192f1bd45f4b85b4767c01f1737bab
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/StoneChest.prefab
+  uploadId: 720558

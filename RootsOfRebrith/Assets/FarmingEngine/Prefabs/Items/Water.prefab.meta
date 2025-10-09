@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 769db4e5bd59403f80f57ca768043599
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Water.prefab
+  uploadId: 720558

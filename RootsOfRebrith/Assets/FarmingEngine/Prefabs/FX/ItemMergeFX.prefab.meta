@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 332c95c5972146a6904d0ea46959f90d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/FX/ItemMergeFX.prefab
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f0230b6dc1144cdfb1d00ab1035837ef
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/BattleAxe.prefab
+  uploadId: 720558

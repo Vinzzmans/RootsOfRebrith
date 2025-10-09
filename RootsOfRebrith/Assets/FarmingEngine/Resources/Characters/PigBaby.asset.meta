@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f033deea6649dd40aed4f57b2d34675
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Characters/PigBaby.asset
+  uploadId: 720558

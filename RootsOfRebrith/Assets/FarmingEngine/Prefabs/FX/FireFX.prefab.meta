@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d930599befc14b24b85cbd1910cf33bd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/FX/FireFX.prefab
+  uploadId: 720558

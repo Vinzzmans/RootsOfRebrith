@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af03216bd860e2c4486102f4f3e51a2d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Cleaver.prefab
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 96a08b3e2f3048f3b46689900cb8e50e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Boots.prefab
+  uploadId: 720558

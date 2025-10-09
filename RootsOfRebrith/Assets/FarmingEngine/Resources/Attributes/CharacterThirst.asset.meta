@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 300893ce43609234a8857aeb88ee4822
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Attributes/CharacterThirst.asset
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d9e5ef33c7094030aa2aa6ad1fea9034
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/BushBlue.prefab
+  uploadId: 720558

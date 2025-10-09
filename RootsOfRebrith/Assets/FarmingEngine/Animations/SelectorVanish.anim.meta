@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c27340ecd7ad4c7585ca7368b1e3a8e7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Animations/SelectorVanish.anim
+  uploadId: 720558

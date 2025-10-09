@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 454aa4b6dd854b43948fad2a42baafc6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/MeatCooked.prefab
+  uploadId: 720558

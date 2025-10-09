@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6466ebbd332acbb43ad6957033938ad1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/BarnStatic.prefab
+  uploadId: 720558

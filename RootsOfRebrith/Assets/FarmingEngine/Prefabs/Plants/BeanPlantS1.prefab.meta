@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 151d5dce3ee53794889ab717c1dc5503
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/BeanPlantS1.prefab
+  uploadId: 720558

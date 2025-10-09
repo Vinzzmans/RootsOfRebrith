@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b59ccf87d27c48c6a2d554cd421fb4de
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/UI/ActionProgress.prefab
+  uploadId: 720558

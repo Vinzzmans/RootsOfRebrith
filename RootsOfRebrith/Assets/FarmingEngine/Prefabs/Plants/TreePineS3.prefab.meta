@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cdc7cae153bc4c5093a7359150896739
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/TreePineS3.prefab
+  uploadId: 720558

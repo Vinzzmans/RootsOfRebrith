@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 59efffe1c1684befb8cdba906cddf7ee
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Equip/SwordEquip.prefab
+  uploadId: 720558

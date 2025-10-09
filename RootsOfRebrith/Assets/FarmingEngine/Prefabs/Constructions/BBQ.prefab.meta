@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 25ed98aa54456764c98599d4317c0a7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/BBQ.prefab
+  uploadId: 720558

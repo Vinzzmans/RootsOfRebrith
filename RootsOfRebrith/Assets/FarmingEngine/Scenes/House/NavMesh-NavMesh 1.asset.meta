@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 249f9559732ff954da20a4672ff77d07
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scenes/House/NavMesh-NavMesh 1.asset
+  uploadId: 720558

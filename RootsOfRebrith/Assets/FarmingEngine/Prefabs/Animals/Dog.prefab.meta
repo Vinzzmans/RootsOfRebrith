@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1352787bde5d43178295149ae8e43401
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/Dog.prefab
+  uploadId: 720558

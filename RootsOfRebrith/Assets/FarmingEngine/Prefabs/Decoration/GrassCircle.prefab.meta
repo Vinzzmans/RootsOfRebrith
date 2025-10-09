@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bcf72591703c4fd284141127b360c082
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Decoration/GrassCircle.prefab
+  uploadId: 720558

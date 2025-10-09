@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc590de2ee0378041b1e6b623b8577ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Models/Character/Character.controller
+  uploadId: 720558

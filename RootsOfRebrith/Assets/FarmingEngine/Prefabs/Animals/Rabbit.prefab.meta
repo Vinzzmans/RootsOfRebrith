@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c6d5f74138243a5930540ae7092ce3e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/Rabbit.prefab
+  uploadId: 720558

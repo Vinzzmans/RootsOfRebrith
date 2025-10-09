@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c317401f255c47443a1bf3e571579ddc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Groups/UseAxe.asset
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5defd37c186e64644b39749a038026ef
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/ChickenCooked.prefab
+  uploadId: 720558

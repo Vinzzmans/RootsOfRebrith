@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c05b3657cc37584ca5472f983a8c5fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Actions/PetStay.asset
+  uploadId: 720558

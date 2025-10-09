@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d2ecdf79f0947489678bb8939f32797
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Animations/ActionSelector.controller
+  uploadId: 720558

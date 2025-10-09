@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 54b3b84825f864e4ebbdd6d26067cf7d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Barn.prefab
+  uploadId: 720558

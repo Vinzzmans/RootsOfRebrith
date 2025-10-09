@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f33e22646e65594582cdcf649f8035e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Actions/SleepDay.asset
+  uploadId: 720558

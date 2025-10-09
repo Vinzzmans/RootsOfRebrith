@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ab1d8095d1ca4fe784da0a059a117742
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Environment/DigSpot.prefab
+  uploadId: 720558

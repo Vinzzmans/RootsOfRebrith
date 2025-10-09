@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a8119b80e04749ceba1f7ab85c33d0c4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/CornPlantS3.prefab
+  uploadId: 720558

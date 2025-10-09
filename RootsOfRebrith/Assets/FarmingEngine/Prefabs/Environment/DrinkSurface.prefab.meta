@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 39d11ec7992649b0a3a6dc62f0e40a54
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Environment/DrinkSurface.prefab
+  uploadId: 720558

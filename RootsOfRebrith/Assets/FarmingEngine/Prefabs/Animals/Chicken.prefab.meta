@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3b676fa434de65f44b06a31ddcb00642
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/Chicken.prefab
+  uploadId: 720558

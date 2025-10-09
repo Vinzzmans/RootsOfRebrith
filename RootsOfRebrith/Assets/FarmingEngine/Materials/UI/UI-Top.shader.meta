@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 25e00ab84f6b40e2ab03f0e17d4aaa0d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/UI/UI-Top.shader
+  uploadId: 720558

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2bbf0a54697c0740b3a59dfe56cb7d9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Actions/Build.asset
+  uploadId: 720558

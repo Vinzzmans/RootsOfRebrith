@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5074941b7566b7438de4d10d0b0f3ee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Food/PotionBlack.asset
+  uploadId: 720558

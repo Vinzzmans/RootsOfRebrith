@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b00e8fc74d3f7b144ad650d142870ae8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Wool.prefab
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 138c33d189c3443d976fb08ce4ed5e68
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/BerriesRed.prefab
+  uploadId: 720558

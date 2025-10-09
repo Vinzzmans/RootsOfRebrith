@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0655f0bef5c41974a8c86c5c732d87b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Tools/DialogueQuestsWrap.cs
+  uploadId: 720558

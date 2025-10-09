@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 02b4e96bdb8e435ca348eedf5c6c8a10
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Bread.prefab
+  uploadId: 720558

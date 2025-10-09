@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b1b6ef1f005a7e742ac193356432c978
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/Fly.prefab
+  uploadId: 720558

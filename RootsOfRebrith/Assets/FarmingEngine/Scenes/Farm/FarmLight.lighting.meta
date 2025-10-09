@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63b8410b2b9e8f6429f0635bf050c4cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scenes/Farm/FarmLight.lighting
+  uploadId: 720558

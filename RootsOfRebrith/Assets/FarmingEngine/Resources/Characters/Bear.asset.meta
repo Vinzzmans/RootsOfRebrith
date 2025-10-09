@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ab88d7b4ba3d7543abf83f4eb91fc52
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Characters/Bear.asset
+  uploadId: 720558

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9a34c85b35fb5e47943087180cc948c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Levels/Cooking/cooking4.asset
+  uploadId: 720558

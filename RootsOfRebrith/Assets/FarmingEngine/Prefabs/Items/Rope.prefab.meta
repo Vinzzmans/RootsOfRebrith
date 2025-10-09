@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 23d2a3c39db644b39c7ef6b1b6348e8a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Rope.prefab
+  uploadId: 720558

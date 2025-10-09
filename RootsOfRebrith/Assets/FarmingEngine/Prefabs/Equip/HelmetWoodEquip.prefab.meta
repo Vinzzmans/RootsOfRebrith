@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 39a11fbfa7a84edeae925ef31a7f4697
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Equip/HelmetWoodEquip.prefab
+  uploadId: 720558

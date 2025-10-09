@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0a98cbf7bf64434889c55c83d02ef52
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Equipment/WateringCan.asset
+  uploadId: 720558

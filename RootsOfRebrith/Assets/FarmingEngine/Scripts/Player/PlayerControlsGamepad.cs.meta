@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 69f341011b4e82a43814856d2045f64a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Player/PlayerControlsGamepad.cs
+  uploadId: 720558

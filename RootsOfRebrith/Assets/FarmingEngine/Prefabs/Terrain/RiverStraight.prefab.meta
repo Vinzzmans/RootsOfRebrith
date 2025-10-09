@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f9977bd1b93948a9b4cd389b3f0e8d5e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Terrain/RiverStraight.prefab
+  uploadId: 720558

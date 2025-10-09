@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 777820210d164d34a3d8f8561150851e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Decoration/FloorPattern.prefab
+  uploadId: 720558

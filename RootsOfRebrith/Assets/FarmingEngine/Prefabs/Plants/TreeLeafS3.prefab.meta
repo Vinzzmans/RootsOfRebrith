@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0562fc4bf6be4e40bfb58d6034f15b88
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/TreeLeafS3.prefab
+  uploadId: 720558

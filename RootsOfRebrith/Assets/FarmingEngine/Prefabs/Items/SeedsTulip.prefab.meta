@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 13a84d4c41c1d7d47968cf919b0675cf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/SeedsTulip.prefab
+  uploadId: 720558

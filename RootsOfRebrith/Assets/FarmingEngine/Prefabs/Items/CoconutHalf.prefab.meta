@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eb2a4d7e7d304324a6fb3b8cda535808
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/CoconutHalf.prefab
+  uploadId: 720558

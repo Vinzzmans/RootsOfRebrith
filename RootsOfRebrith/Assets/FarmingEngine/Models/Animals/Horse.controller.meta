@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6f7c08609d89514d8f9695a7117ef50
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Models/Animals/Horse.controller
+  uploadId: 720558

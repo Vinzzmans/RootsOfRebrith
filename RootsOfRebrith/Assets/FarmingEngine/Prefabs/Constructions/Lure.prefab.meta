@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 19c4b37e3e9640d1a0e06f90b7452409
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Lure.prefab
+  uploadId: 720558

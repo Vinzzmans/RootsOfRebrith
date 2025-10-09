@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bee546b2fef64d69a2162109084e43d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/SeedsWheat.prefab
+  uploadId: 720558

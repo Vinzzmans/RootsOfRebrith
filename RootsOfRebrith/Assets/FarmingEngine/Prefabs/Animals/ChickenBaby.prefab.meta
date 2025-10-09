@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6d83e47d0875b4b4fb5c6ae9daebed54
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/ChickenBaby.prefab
+  uploadId: 720558

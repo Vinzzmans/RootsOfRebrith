@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3faae2b9b9534b13bb8568c122a5bea2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Flag.prefab
+  uploadId: 720558

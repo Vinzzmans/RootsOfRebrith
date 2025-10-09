@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4ee503b3dba456e42accba1d7fc898b8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/FX/WorldGenObject.cs
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 349374b39a0c401baef01cb490794e3e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Stairs.prefab
+  uploadId: 720558

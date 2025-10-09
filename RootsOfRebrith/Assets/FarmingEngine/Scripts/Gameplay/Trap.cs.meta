@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bb9fd8f086b83ef4bb05eb35620ce71e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Gameplay/Trap.cs
+  uploadId: 720558

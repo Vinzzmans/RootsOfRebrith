@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b94e4bbb8bf4cb48b46286a8f5a473f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Actions/Drink.asset
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e8181ece41b64f359c4b8a54307d7ec2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Spaghetti.prefab
+  uploadId: 720558

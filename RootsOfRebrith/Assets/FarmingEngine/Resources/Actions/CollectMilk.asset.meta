@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d4e7972d641682648bda1f48c3e68fc1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Actions/CollectMilk.asset
+  uploadId: 720558

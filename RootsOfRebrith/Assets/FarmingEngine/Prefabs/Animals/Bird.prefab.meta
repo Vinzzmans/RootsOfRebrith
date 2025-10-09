@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7a288ad5e0c249cb95bd43cebf789c36
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Animals/Bird.prefab
+  uploadId: 720558

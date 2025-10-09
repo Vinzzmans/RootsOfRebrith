@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e93f648951f7fc542ae8f49f3be9ddf2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Enemies/Mummy.prefab
+  uploadId: 720558

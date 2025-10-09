@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c7dd713bbf1b6a54eadbd1a79f3b49de
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Characters/Fly.asset
+  uploadId: 720558

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 41beced0cfda3834a87250874fca5a37
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Plants/TulipPlant.asset
+  uploadId: 720558

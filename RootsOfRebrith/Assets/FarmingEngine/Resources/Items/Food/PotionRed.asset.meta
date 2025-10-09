@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 29e821d841e6dbe4db412ab5379ec859
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Food/PotionRed.asset
+  uploadId: 720558

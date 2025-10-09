@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 58c94498375e497e93324128e9637af7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/CandyBlack.prefab
+  uploadId: 720558

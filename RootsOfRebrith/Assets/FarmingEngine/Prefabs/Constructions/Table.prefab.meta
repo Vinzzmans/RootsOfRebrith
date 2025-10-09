@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a57f573cfd146c297e2fd098674cada
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Table.prefab
+  uploadId: 720558

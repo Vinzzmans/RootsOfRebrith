@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89ab4524c78447a1ae164e929eae5fc2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Environment/BirdNest.prefab
+  uploadId: 720558

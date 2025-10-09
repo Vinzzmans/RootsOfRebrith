@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 440532df5dd0467abcf5b022084a3311
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/FX/PoofFX.prefab
+  uploadId: 720558

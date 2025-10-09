@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4678c35098144cc68a114e9165b4d237
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/FX/ItemTakeFX.prefab
+  uploadId: 720558

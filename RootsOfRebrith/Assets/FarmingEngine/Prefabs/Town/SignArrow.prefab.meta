@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: faa64041c711a82439f4fda697242d23
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Town/SignArrow.prefab
+  uploadId: 720558

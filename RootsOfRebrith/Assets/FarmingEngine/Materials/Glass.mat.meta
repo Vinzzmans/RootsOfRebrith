@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5b3f7e20278ae04b99bebf8a5c15424
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/Glass.mat
+  uploadId: 720558

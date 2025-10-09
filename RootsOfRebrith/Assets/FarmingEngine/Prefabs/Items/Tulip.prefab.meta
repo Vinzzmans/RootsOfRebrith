@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 850612db0fc7e2f44bf3cfc9aa7e5a3e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Tulip.prefab
+  uploadId: 720558

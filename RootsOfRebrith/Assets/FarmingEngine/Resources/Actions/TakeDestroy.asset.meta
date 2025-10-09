@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64be0f7a3e157ba4a8bd070aa358b662
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Actions/TakeDestroy.asset
+  uploadId: 720558

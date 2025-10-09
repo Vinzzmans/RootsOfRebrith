@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: efd2e79b82234f7e9bf43f7d31a9f803
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Animations/WaterSpot.anim
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: caf83bc26db44d7192173d9675ca9226
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/PotionEmpty.prefab
+  uploadId: 720558

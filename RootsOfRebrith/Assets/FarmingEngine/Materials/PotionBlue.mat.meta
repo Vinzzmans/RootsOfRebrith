@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5bbff6cad87c492cb6ce5d174c8c5749
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/PotionBlue.mat
+  uploadId: 720558

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 083f480c31f56a04eafda37a747f4886
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Plants/BerryBushBlue.asset
+  uploadId: 720558

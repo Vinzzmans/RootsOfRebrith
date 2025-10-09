@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89d6e5b68e9a422eaaebf671005f9f52
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/TomatoPlantS1.prefab
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3fb28dd0c3104b63922e7d2d55e2348a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/FishNChip.prefab
+  uploadId: 720558

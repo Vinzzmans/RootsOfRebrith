@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a6c3eb73bad318a4eb7cd403e0cb4560
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/UI/TooltipTargetUI.cs
+  uploadId: 720558

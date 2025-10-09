@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 09c456283dc90a84f8fcc88867aff074
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/Well.prefab
+  uploadId: 720558

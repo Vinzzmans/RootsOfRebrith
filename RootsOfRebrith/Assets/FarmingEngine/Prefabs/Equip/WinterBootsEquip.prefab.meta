@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a9a5d0029e944fe8a0a4c13af5967571
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Equip/WinterBootsEquip.prefab
+  uploadId: 720558

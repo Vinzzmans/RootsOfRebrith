@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae7cc6a7ac65cce4aa937839142b6de6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Resources/Items/Equipment/Torch.asset
+  uploadId: 720558

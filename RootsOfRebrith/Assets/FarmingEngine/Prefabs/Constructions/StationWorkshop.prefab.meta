@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b7ebcb329b84077b5bc4006f3448b10
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/StationWorkshop.prefab
+  uploadId: 720558

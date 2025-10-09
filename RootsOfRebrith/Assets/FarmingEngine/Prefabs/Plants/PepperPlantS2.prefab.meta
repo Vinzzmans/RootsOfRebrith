@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2082b668b48338a45a0d2498bcfb7893
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/PepperPlantS2.prefab
+  uploadId: 720558

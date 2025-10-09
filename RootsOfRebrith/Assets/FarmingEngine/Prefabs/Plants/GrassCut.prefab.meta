@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 99327ba6411048c4a97cb6272805ca92
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Plants/GrassCut.prefab
+  uploadId: 720558

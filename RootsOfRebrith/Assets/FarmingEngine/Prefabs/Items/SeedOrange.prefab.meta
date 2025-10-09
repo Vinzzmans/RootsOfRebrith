@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 41f6980bdf9725946ba8c7d19b8f6576
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/SeedOrange.prefab
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4013bcfaff5e47ee9fcc24430020b826
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Items/Slingshot.prefab
+  uploadId: 720558

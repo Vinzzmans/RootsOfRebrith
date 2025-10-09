@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0cf34e89fa4d408e8131d211f55d26bf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Decoration/HayCircle.prefab
+  uploadId: 720558

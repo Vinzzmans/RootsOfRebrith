@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d77a2c9601b54a9fa684ae6ad9ec2fac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Animations/SelectorVisible.anim
+  uploadId: 720558

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3f55f66e82742ec83ec853e73beb619
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Environment/RockMetal.prefab
+  uploadId: 720558

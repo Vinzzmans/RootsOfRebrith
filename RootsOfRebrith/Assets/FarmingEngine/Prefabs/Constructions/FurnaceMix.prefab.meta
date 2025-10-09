@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 92ac58abd573479c9b6962088ce1fb4c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Constructions/FurnaceMix.prefab
+  uploadId: 720558

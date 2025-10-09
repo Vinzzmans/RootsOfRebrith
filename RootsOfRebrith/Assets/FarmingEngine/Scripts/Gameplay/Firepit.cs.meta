@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 77d48923b5c105c4bae44356b2d6a454
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Scripts/Gameplay/Firepit.cs
+  uploadId: 720558

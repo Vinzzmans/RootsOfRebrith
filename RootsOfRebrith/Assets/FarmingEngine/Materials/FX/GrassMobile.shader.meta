@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7c2d994319f745f9845d6f78d0567b44
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Materials/FX/GrassMobile.shader
+  uploadId: 720558

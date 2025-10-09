@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 98f4fd1d60484055a47f48bc55d0fe3a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191881
+  packageName: Farming Engine
+  packageVersion: 1.21
+  assetPath: Assets/FarmingEngine/Prefabs/Equip/ArmorEquip.prefab
+  uploadId: 720558
