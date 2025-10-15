@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace FarmingEngine
 {
-
     /// <summary>
     /// Keyboard controls manager
     /// </summary>
@@ -14,24 +14,25 @@ namespace FarmingEngine
         public int player_id = 0;
 
         [Header("Actions")]
-        public KeyCode action_key = KeyCode.Space;
-        public KeyCode attack_key = KeyCode.LeftShift;
-        public KeyCode jump_key = KeyCode.LeftControl;
+        public Key action_ikey = Key.Space;
+        public Key attack_ikey = Key.LeftShift;
+        public bool attack_with_left_mouse = true; // <— NEU
+        public Key jump_ikey = Key.LeftCtrl;
 
         [Header("Camera")]
-        public KeyCode cam_rotate_left = KeyCode.Q;
-        public KeyCode cam_rotate_right = KeyCode.E;
+        public Key cam_rotate_left_ikey = Key.Q;
+        public Key cam_rotate_right_ikey = Key.E;
 
         [Header("UI")]
-        public KeyCode craft_key = KeyCode.C;
-        public KeyCode ui_select = KeyCode.Return;
-        public KeyCode ui_use = KeyCode.RightShift;
-        public KeyCode ui_cancel = KeyCode.Backspace;
+        public Key craft_ikey = Key.C;
+        public Key ui_select_ikey = Key.Enter;
+        public Key ui_use_ikey = Key.RightShift;
+        public Key ui_cancel_ikey = Key.Backspace;
 
         [Header("Menu")]
-        public KeyCode menu_accept = KeyCode.Return;
-        public KeyCode menu_cancel = KeyCode.Backspace;
-        public KeyCode menu_pause = KeyCode.Escape;
+        public Key menu_accept_ikey = Key.Enter;
+        public Key menu_cancel_ikey = Key.Backspace;
+        public Key menu_pause_ikey = Key.Escape;
 
         [Header(" ---- Gamepad Mode ---- ")]
         public bool gamepad_controls = false; //In gamepad mode, anything that can usually be done with the mouse will be replaced by keyboard/gamepad controls, 
@@ -98,7 +99,7 @@ namespace FarmingEngine
 
         void Update()
         {
-            move = Vector3.zero;
+            move = Vector2.zero;
             freelook = Vector2.zero;
             menu_move = Vector2.zero;
             ui_move = Vector2.zero;
@@ -116,77 +117,86 @@ namespace FarmingEngine
             press_ui_cancel = false;
 
             Vector2 wasd = Vector2.zero;
-            if (Input.GetKey(KeyCode.A))
-                wasd += Vector2.left;
-            if (Input.GetKey(KeyCode.D))
-                wasd += Vector2.right;
-            if (Input.GetKey(KeyCode.W))
-                wasd += Vector2.up;
-            if (Input.GetKey(KeyCode.S))
-                wasd += Vector2.down;
+            Keyboard keyboard = Keyboard.current;
+            if(keyboard != null)
+            {
+                if (keyboard[Key.A].isPressed)
+                    wasd += Vector2.left;
+                if (keyboard[Key.D].isPressed)
+                    wasd += Vector2.right;
+                if (keyboard[Key.W].isPressed)
+                    wasd += Vector2.up;
+                if (keyboard[Key.S].isPressed)
+                    wasd += Vector2.down;
 
-            Vector2 arrows = Vector2.zero;
-            if (Input.GetKey(KeyCode.LeftArrow))
-                arrows += Vector2.left;
-            if (Input.GetKey(KeyCode.RightArrow))
-                arrows += Vector2.right;
-            if (Input.GetKey(KeyCode.UpArrow))
-                arrows += Vector2.up;
-            if (Input.GetKey(KeyCode.DownArrow))
-                arrows += Vector2.down;
+                Vector2 arrows = Vector2.zero;
+                if (keyboard[Key.LeftArrow].isPressed)
+                    arrows += Vector2.left;
+                if (keyboard[Key.RightArrow].isPressed)
+                    arrows += Vector2.right;
+                if (keyboard[Key.UpArrow].isPressed)
+                    arrows += Vector2.up;
+                if (keyboard[Key.DownArrow].isPressed)
+                    arrows += Vector2.down;
 
-            if (Input.GetKey(cam_rotate_left))
-                rotate_cam += -1f;
-            if (Input.GetKey(cam_rotate_right))
-                rotate_cam += 1f;
+                if (keyboard[cam_rotate_left_ikey].isPressed)
+                    rotate_cam += -1f;
+                if (keyboard[cam_rotate_right_ikey].isPressed)
+                    rotate_cam += 1f;
 
-            if (Input.GetKeyDown(action_key))
-                press_action = true;
-            if (Input.GetKeyDown(attack_key))
+                if (keyboard[action_ikey].wasPressedThisFrame)
+                    press_action = true;
+                if (keyboard[attack_ikey].wasPressedThisFrame)
+                    press_attack = true;
+                if (keyboard[jump_ikey].wasPressedThisFrame)
+                    press_jump = true;
+                if (keyboard[craft_ikey].wasPressedThisFrame)
+                    press_craft = true;
+
+                if (keyboard[menu_accept_ikey].wasPressedThisFrame)
+                    press_accept = true;
+                if (keyboard[menu_cancel_ikey].wasPressedThisFrame)
+                    press_cancel = true;
+                if (keyboard[menu_pause_ikey].wasPressedThisFrame)
+                    press_pause = true;
+
+                if (keyboard[ui_select_ikey].wasPressedThisFrame)
+                    press_ui_select = true;
+                if (keyboard[ui_use_ikey].wasPressedThisFrame)
+                    press_ui_use = true;
+                if (keyboard[ui_cancel_ikey].wasPressedThisFrame)
+                    press_ui_cancel = true;
+
+                Vector2 both = (arrows + wasd);
+                move = wasd;
+                if (gamepad_controls)
+                    freelook = arrows;
+
+                //Menu / UI
+                if (!menu_moved && both.magnitude > 0.5f)
+                {
+                    menu_move = both;
+                    menu_moved = true;
+                }
+
+                if (both.magnitude < 0.5f)
+                    menu_moved = false;
+
+                if (!ui_moved && arrows.magnitude > 0.5f)
+                {
+                    ui_move = arrows;
+                    ui_moved = true;
+                }
+
+                if (arrows.magnitude < 0.5f)
+                    ui_moved = false;
+            }
+            
+            // --- Mouse (separat von Keyboard) ---
+            var mouse = Mouse.current;
+            if (attack_with_left_mouse && mouse != null && mouse.leftButton.wasPressedThisFrame)
                 press_attack = true;
-            if (Input.GetKeyDown(jump_key))
-                press_jump = true;
-            if (Input.GetKeyDown(craft_key))
-                press_craft = true;
-
-            if (Input.GetKeyDown(menu_accept))
-                press_accept = true;
-            if (Input.GetKeyDown(menu_cancel))
-                press_cancel = true;
-            if (Input.GetKeyDown(menu_pause))
-                press_pause = true;
-
-            if (Input.GetKeyDown(ui_select))
-                press_ui_select = true;
-            if (Input.GetKeyDown(ui_use))
-                press_ui_use = true;
-            if (Input.GetKeyDown(ui_cancel))
-                press_ui_cancel = true;
-
-            Vector2 both = (arrows + wasd);
-            move = wasd;
-            if (gamepad_controls)
-                freelook = arrows;
-
-            //Menu / UI
-            if (!menu_moved && both.magnitude > 0.5f)
-            {
-                menu_move = both;
-                menu_moved = true;
-            }
-
-            if (both.magnitude < 0.5f)
-                menu_moved = false;
-
-            if (!ui_moved && arrows.magnitude > 0.5f)
-            {
-                ui_move = arrows;
-                ui_moved = true;
-            }
-
-            if (arrows.magnitude < 0.5f)
-                ui_moved = false;
-
+            
             //Gamepad
             if (gamepad_linked && gamepad_controls) {
 
@@ -249,7 +259,7 @@ namespace FarmingEngine
 
         public bool IsPressedByName(string name)
         {
-            return Input.GetKeyDown(name);
+            return Input.GetKeyDown(name); //Need to be replaced to new input system
         }
 
         public bool IsGamePad()
