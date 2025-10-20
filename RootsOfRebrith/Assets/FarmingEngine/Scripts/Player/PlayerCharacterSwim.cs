@@ -54,7 +54,7 @@ namespace FarmingEngine
                 return;
 
             Vector3 center = character.GetColliderCenter();
-            float hradius = character.GetColliderHeightRadius();
+            float hradius = character.GetColliderHalfHeight();
             cground_layers = PhysicsTool.DetectGroundLayers(center, hradius);
 
         }

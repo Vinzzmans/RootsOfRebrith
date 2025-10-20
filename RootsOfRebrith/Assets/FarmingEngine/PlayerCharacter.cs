@@ -16,7 +16,7 @@ namespace FarmingEngine
     /// Main character script, contains code for movement and for player controls/commands
     /// </summary>
 
-    [RequireComponent(typeof(Rigidbody))]
+
     [RequireComponent(typeof(PlayerCharacterCombat))]
     [RequireComponent(typeof(PlayerCharacterAttribute))]
     [RequireComponent(typeof(PlayerCharacterInventory))]
@@ -45,9 +45,8 @@ namespace FarmingEngine
         public bool action_ui;           //Show action timer UI when performing actions
 
         public UnityAction<string, float> onTriggerAnim;
-
-        private Rigidbody rigid;
-        private CapsuleCollider collide;
+        
+        private CharacterController controller; 
         private PlayerCharacterAttribute character_attr;
         private PlayerCharacterCombat character_combat;
         private PlayerCharacterCraft character_craft;
@@ -107,8 +106,7 @@ namespace FarmingEngine
                 player_first = this;
 
             players_list.Add(this);
-            rigid = GetComponent<Rigidbody>();
-            collide = GetComponentInChildren<CapsuleCollider>();
+            controller = GetComponent<CharacterController>();  // sollte existieren
             character_attr = GetComponent<PlayerCharacterAttribute>();
             character_combat = GetComponent<PlayerCharacterCombat>();
             character_craft = GetComponent<PlayerCharacterCraft>();
@@ -168,40 +166,37 @@ namespace FarmingEngine
             if (TheGame.Get().IsPaused())
                 return;
 
-            //Update the automove target position based on navmesh path, or moving target
+            // --- Update FE intern ---
             UpdateAutoMoveTarget();
-
-            //Check if grounded
             DetectGrounded();
             DetectFronted();
 
-            //Find the direction the character should move
+            // --- Bewegung & Facing berechnen ---
             Vector3 tmove = FindMovementDirection();
-
-            //Apply the move calculated previously
             move = Vector3.Lerp(move, tmove, move_accel * Time.fixedDeltaTime);
-            rigid.linearVelocity = move;
 
-            //Find facing direction
+            // --- Facing aktualisieren ---
             Vector3 tfacing = FindFacingDirection();
             if (tfacing.magnitude > 0.5f)
                 facing = tfacing;
 
-            //Apply the facing
-            Quaternion targ_rot = Quaternion.LookRotation(facing, Vector3.up);
-            rigid.MoveRotation(Quaternion.RotateTowards(rigid.rotation, targ_rot, rotate_speed * Time.fixedDeltaTime));
+            // --- Bewegung und Rotation (nur CharacterController / StarterAssets) ---
+            // Wir bewegen NICHT selbst – StarterAssets übernimmt das.
+            // Hier halten wir nur interne Werte in Sync.
 
-            //Check the average traveled movement (allow to check if character is stuck)
-            Vector3 last_frame_travel = transform.position - prev_pos;
-            move_average = Vector3.MoveTowards(move_average, last_frame_travel, 1f * Time.fixedDeltaTime);
-            prev_pos = transform.position;
-
-            //Stop auto move
-            bool stuck_somewhere = move_average.magnitude < 0.02f && auto_move_timer > 1f;
-            if (stuck_somewhere)
-                auto_move = false;
+            // Bewegung aktiv?
+            if (IsMovementEnabled())
+            {
+                // Nur Facing intern synchron halten, FE darf nicht rotieren
+                facing = transform.forward;
+            }
+            else
+            {
+                // Wenn Bewegung deaktiviert (z. B. busy, craft usw.), Facing stabil halten
+                facing = transform.forward;
+            }
         }
-
+        
         private void UpdateControls()
         {
             if (!IsControlsEnabled())
@@ -426,31 +421,46 @@ namespace FarmingEngine
         {
             if (paused)
             {
-                rigid.linearVelocity = Vector3.zero;
+                // Bei Pause Bewegung sofort stoppen (nur interne Werte, kein Rigidbody)
+                move = Vector3.zero;
+
+                // Falls du ein StarterAssets-Setup hast, kannst du zusätzlich
+                // den Controller minimal repositionieren, damit er sofort stehen bleibt:
+                var cc = GetComponent<CharacterController>();
+                if (cc != null)
+                {
+                    // CharacterController selbst hat keine "Velocity", daher kein Reset nötig.
+                    // Wir stellen nur sicher, dass er im nächsten Frame nicht weiterrutscht.
+                    cc.Move(Vector3.zero);
+                }
             }
         }
+
 
         //Detect if character is on the floor
         private void DetectGrounded()
         {
-            float hradius = GetColliderHeightRadius();
+            float hradius = GetColliderHalfHeight(); // statt GetColliderHeightRadius()
             float radius = GetColliderRadius() * 0.9f;
             Vector3 center = GetColliderCenter();
 
-            float gdist; Vector3 gnormal;
-            is_grounded = PhysicsTool.DetectGround(transform, center, hradius, radius, ground_layer, out gdist, out gnormal);
+            float gdist;
+            Vector3 gnormal;
+            is_grounded = PhysicsTool.DetectGround(transform, center,
+                hradius, radius, ground_layer, out gdist, out gnormal);
             ground_normal = gnormal;
 
             float slope_angle = Vector3.Angle(ground_normal, Vector3.up);
             is_grounded = is_grounded && slope_angle <= slope_angle_max;
         }
 
+
         //Detect if there is an obstacle in front of the character
         private void DetectFronted()
         {
             Vector3 scale = transform.lossyScale;
-            float hradius = collide.height * scale.y * 0.5f - 0.02f; //radius is half the height minus offset
-            float radius = collide.radius * (scale.x + scale.y) * 0.5f + 0.5f;
+            float hradius = GetColliderHalfHeight();   // war collide.height ...
+            float radius  = GetColliderRadius();       // war collide.radius ...
 
             Vector3 center = GetColliderCenter();
             Vector3 p1 = center;
@@ -458,16 +468,18 @@ namespace FarmingEngine
             Vector3 p3 = center + Vector3.down * hradius;
 
             RaycastHit h1, h2, h3;
-            bool f1 = PhysicsTool.RaycastCollision(p1, facing * radius, out h1);
-            bool f2 = PhysicsTool.RaycastCollision(p2, facing * radius, out h2);
-            bool f3 = PhysicsTool.RaycastCollision(p3, facing * radius, out h3);
+            bool f1 = PhysicsTool.RaycastCollision(pos: p1, dir: facing * radius, out h1);
+            bool f2 = PhysicsTool.RaycastCollision(pos: p2, dir: facing * radius, out h2);
+            bool f3 = PhysicsTool.RaycastCollision(pos: p3, dir: facing * radius, out h3);
 
             is_fronted = f1 || f2 || f3;
 
-            //Debug.DrawRay(p1, facing * radius);
-            //Debug.DrawRay(p2, facing * radius);
-            //Debug.DrawRay(p3, facing * radius);
+            // Debug optional:
+            // Debug.DrawRay(p1, facing * radius, Color.red);
+            // Debug.DrawRay(p2, facing * radius, Color.red);
+            // Debug.DrawRay(p3, facing * radius, Color.red);
         }
+
 
         //--- Generic Actions ----
 
@@ -775,8 +787,12 @@ namespace FarmingEngine
         {
             StopAutoMove();
             move = Vector3.zero;
-            rigid.linearVelocity = Vector3.zero;
+
+            // kein Rigidbody mehr – CharacterController/StarterAssets stoppen von selbst
+            // Hier nur interne Werte zurücksetzen, damit FE-States konsistent bleiben
+            facing = transform.forward;
         }
+
 
         public void StopAutoMove()
         {
@@ -800,11 +816,25 @@ namespace FarmingEngine
 
         public void Teleport(Vector3 pos)
         {
-            rigid.position = pos;
-            transform.position = pos;
+            // Falls ein CharacterController aktiv ist, kurz deaktivieren,
+            // damit er das neue Ziel nicht blockiert.
+            var cc = GetComponent<CharacterController>();
+            if (cc != null)
+            {
+                cc.enabled = false;
+                transform.position = pos;
+                cc.enabled = true;
+            }
+            else
+            {
+                transform.position = pos;
+            }
+
+            // SaveData und interne Positionswerte aktualisieren
             SaveData.position = pos;
             prev_pos = pos;
         }
+
 
         public void SetFallVect(Vector3 fall)
         {
@@ -840,13 +870,18 @@ namespace FarmingEngine
 
         public void EnableCollider()
         {
-            collide.enabled = true;
+            var cc = GetComponent<CharacterController>();
+            if (cc != null)
+                cc.enabled = true;
         }
 
         public void DisableCollider()
         {
-            collide.enabled = false;
+            var cc = GetComponent<CharacterController>();
+            if (cc != null)
+                cc.enabled = false;
         }
+
 
         //------- Mouse Clicks --------
 
@@ -1104,22 +1139,18 @@ namespace FarmingEngine
             return GetPosition() + transform.forward * interact_offset;
         }
 
-        public Vector3 GetColliderCenter()
-        {
-            Vector3 scale = transform.lossyScale;
-            return collide.transform.position + Vector3.Scale(collide.center, scale);
+        // Weltzentrum des „Colliders“
+        public Vector3 GetColliderCenter() {
+            // controller.center ist lokal → in Welt umrechnen
+            return transform.TransformPoint(controller.center);
         }
 
-        public float GetColliderHeightRadius()
-        {
-            Vector3 scale = transform.lossyScale;
-            return collide.height * scale.y * 0.5f + ground_detect_dist; //radius is half the height minus offset
+        public float GetColliderRadius() {
+            return controller != null ? controller.radius : 0.5f;
         }
 
-        public float GetColliderRadius()
-        {
-            Vector3 scale = transform.lossyScale;
-            return collide.radius * (scale.x + scale.y) * 0.5f;
+        public float GetColliderHalfHeight() {
+            return controller != null ? controller.height * 0.5f : 0.9f;
         }
 
         public bool IsFronted()
