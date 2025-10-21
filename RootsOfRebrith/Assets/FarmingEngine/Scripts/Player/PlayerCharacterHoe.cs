@@ -1,57 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace FarmingEngine
 {
-
-    /// <summary>
-    /// Add to your player character for HOE feature
-    /// </summary>
-
     [RequireComponent(typeof(PlayerCharacter))]
     public class PlayerCharacterHoe : MonoBehaviour
     {
         public GroupData hoe_item;
         public ConstructionData hoe_soil;
-        public float hoe_range = 1f;
         public float hoe_build_radius = 0.5f;
         public int hoe_energy = 1;
 
         private PlayerCharacter character;
-        private 
+        private StarterAssets.StarterAssetsInputs _inputs;
 
         void Awake()
         {
             character = GetComponent<PlayerCharacter>();
-        }
-
-        private void OnDestroy()
-        {
-            
-        }
-
-        private void Start()
-        {
-            
-        }
-
-        void FixedUpdate()
-        {
-            
+            _inputs = GetComponentInParent<StarterAssets.StarterAssetsInputs>();
+            if (_inputs == null)
+                Debug.LogWarning("PlayerCharacterHoe: StarterAssetsInputs not found on parent.");
         }
 
         private void Update()
         {
-            //Auto hoe
-            if (character.IsAutoMove())
-            {
-                HoeGroundAuto(character.GetAutoMoveTarget());
-            }
-
-            PlayerControls control = PlayerControls.Get();
-            if (control.IsPressAttack() && character.IsControlsEnabled())
+            if (_inputs != null &&
+                _inputs.ConsumeAttackPressed() &&
+                character.IsControlsEnabled())
             {
                 Vector3 hoe_pos = character.GetInteractCenter() + character.GetFacing() * 1f;
                 HoeGround(hoe_pos);
@@ -81,15 +57,10 @@ namespace FarmingEngine
                 construct.GetBuildable().StartBuild(character);
                 construct.GetBuildable().SetBuildPositionTemporary(pos);
                 if (construct.GetBuildable().CheckIfCanBuild())
-                {
                     construct.GetBuildable().FinishBuild();
-                }
                 else
-                {
                     Destroy(construct.gameObject);
-                }
             });
-
         }
 
         public bool CanHoe()
@@ -99,23 +70,5 @@ namespace FarmingEngine
             ItemData idata = ItemData.Get(ivdata?.item_id);
             return has_energy && idata != null && idata.HasGroup(hoe_item) && !character.IsBusy();
         }
-
-        public void HoeGroundAuto(Vector3 pos)
-        {
-            Vector3 dir = pos - transform.position;
-            if (character.IsBusy() || character.Crafting.ClickedBuild() || dir.magnitude > hoe_range
-                || character.GetAutoSelectTarget() != null || character.GetAutoDropInventory() != null)
-                return;
-
-            InventoryItemData ivdata = character.EquipData.GetEquippedItem(EquipSlot.Hand);
-            if (ivdata != null && CanHoe())
-            {
-                HoeGround(pos);
-
-                if (ivdata != null)
-                    ivdata.durability -= 1;
-            }
-        }
     }
-
 }

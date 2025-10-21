@@ -930,7 +930,7 @@ namespace FarmingEngine
             }
             else if(character_hoe != null && character_hoe.CanHoe())
             {
-                character_hoe.HoeGroundAuto(pos);
+                //character_hoe.HoeGroundAuto(pos);
             }
             else if (Combat.attack_type == PlayerAttackBehavior.ClickToHit)
             {

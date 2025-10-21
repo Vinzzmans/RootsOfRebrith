@@ -46,32 +46,27 @@ namespace FarmingEngine
 
         void Update()
         {
-            if (TheGame.Get().IsPaused())
-                return;
-
-            if (character.IsDead())
+            if (TheGame.Get().IsPaused() || character.IsDead())
                 return;
 
             build_timer += Time.deltaTime;
             craft_timer += Time.deltaTime;
 
-            PlayerControls controls = PlayerControls.Get(character.player_id);
+            var inputs = GetComponentInParent<StarterAssets.StarterAssetsInputs>();
 
-            //Cancel building
-            if (controls.IsPressUICancel() || controls.IsPressPause())
+            // Cancel building
+            if (inputs != null && (inputs.ConsumeUICancelPressed() || inputs.ConsumePausePressed()))
                 CancelBuilding();
 
-            //Cancel crafting
+            // Cancel crafting on move
             if (current_crafting != null && character.IsMoving())
                 CancelCrafting();
 
-            //Complete crafting after timer
-            if (current_crafting != null)
-            {
-                if (craft_timer > current_crafting.craft_duration)
-                    CompleteCrafting();
-            }
+            // Complete crafting after timer
+            if (current_crafting != null && craft_timer > current_crafting.craft_duration)
+                CompleteCrafting();
         }
+
 
         //---- Crafting ----
 
