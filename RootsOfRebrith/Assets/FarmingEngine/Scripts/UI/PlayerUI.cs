@@ -56,12 +56,14 @@ namespace FarmingEngine
             base.Start();
 
             PlayerCharacter ui_player = GetPlayer();
-            if (ui_player != null)
+            if (ui_player != null && ui_player.Combat != null)
                 ui_player.Combat.onDamaged += DoDamageFX;
 
             PlayerControlsMouse mouse = PlayerControlsMouse.Get();
-            mouse.onRightClick += (Vector3 pos, Selectable select) => { CancelSelection(); };
+            if (mouse != null)
+                mouse.onRightClick += (Vector3 pos, Selectable select) => { CancelSelection(); };
         }
+
 
         protected override void Update()
         {

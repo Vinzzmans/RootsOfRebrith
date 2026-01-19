@@ -259,8 +259,30 @@ namespace FarmingEngine
 
         public bool IsPressedByName(string name)
         {
-            return Input.GetKeyDown(name); //Need to be replaced to new input system
+            if (Keyboard.current == null)
+                return false;
+
+            // Farming Engine nutzt das NUR für Zahlentasten (Hotbar 1–0)
+            if (int.TryParse(name, out int number))
+            {
+                switch (number)
+                {
+                    case 0: return Keyboard.current.digit0Key.wasPressedThisFrame;
+                    case 1: return Keyboard.current.digit1Key.wasPressedThisFrame;
+                    case 2: return Keyboard.current.digit2Key.wasPressedThisFrame;
+                    case 3: return Keyboard.current.digit3Key.wasPressedThisFrame;
+                    case 4: return Keyboard.current.digit4Key.wasPressedThisFrame;
+                    case 5: return Keyboard.current.digit5Key.wasPressedThisFrame;
+                    case 6: return Keyboard.current.digit6Key.wasPressedThisFrame;
+                    case 7: return Keyboard.current.digit7Key.wasPressedThisFrame;
+                    case 8: return Keyboard.current.digit8Key.wasPressedThisFrame;
+                    case 9: return Keyboard.current.digit9Key.wasPressedThisFrame;
+                }
+            }
+
+            return false;
         }
+
 
         public bool IsGamePad()
         {

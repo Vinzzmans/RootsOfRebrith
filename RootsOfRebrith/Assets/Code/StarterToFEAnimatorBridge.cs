@@ -1,6 +1,8 @@
 using UnityEngine;
 using StarterAssets;
 using FarmingEngine;
+using UnityEngine.InputSystem;
+
 
 /// <summary>
 /// Brücke zwischen Starter Assets (Bewegung/Input) und Farming Engine (Zustände/Events),
@@ -100,7 +102,7 @@ public class StarterToFEAnimatorBridge : MonoBehaviour
             }
             if (combat != null)
             {
-                combat.onAttack   += OnAttack;
+                combat.onAttack   += OnFEAttack;
                 combat.onAttackHit += OnAttackHit;
                 combat.onDamaged  += OnDamaged;
                 combat.onDeath    += OnDeath;
@@ -130,7 +132,7 @@ public class StarterToFEAnimatorBridge : MonoBehaviour
             }
             if (combat != null)
             {
-                combat.onAttack    -= OnAttack;
+                combat.onAttack    -= OnFEAttack;
                 combat.onAttackHit -= OnAttackHit;
                 combat.onDamaged   -= OnDamaged;
                 combat.onDeath     -= OnDeath;
@@ -265,7 +267,7 @@ public class StarterToFEAnimatorBridge : MonoBehaviour
         SetAnimTrigger(death_anim);
     }
 
-    private void OnAttack(Destructible target, bool ranged)
+    private void OnFEAttack(Destructible target, bool ranged)
     {
         // Gleiche Logik wie PlayerCharacterAnim: Attack-Speed setzen + evtl. Ausrüstungs-Override für Anim-Namen
         string anim = attack_anim;
