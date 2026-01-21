@@ -41,6 +41,8 @@ namespace FarmingEngine
         public GameObject outline; //Toggle a child object as the outline
         public bool generate_outline = false; //This will generate the outline automatically (will use the first mesh found)
         public Material outline_material; //Material used when generating the outline
+        public bool outline_only_in_use_range = true; // Only show outline if at least one player is in use range
+
 
         [HideInInspector]
         public bool dont_optimize = false; //If true, will never be turned  off by optimizer
@@ -221,11 +223,29 @@ namespace FarmingEngine
 
         public void SetHover(bool value)
         {
+            // Gate outline by interaction range
+            if (value && outline_only_in_use_range)
+            {
+                bool anyPlayerInRange = false;
+                foreach (var pc in PlayerCharacter.GetAll())
+                {
+                    if (pc != null && IsInUseRange(pc))
+                    {
+                        anyPlayerInRange = true;
+                        break;
+                    }
+                }
+
+                if (!anyPlayerInRange)
+                    value = false;
+            }
+
             is_hovered = value;
 
             if (outline != null && is_hovered != outline.activeSelf)
                 outline.SetActive(is_hovered);
         }
+
 
         public MAction FindMergeAction(ItemData other)
         {
@@ -349,8 +369,9 @@ namespace FarmingEngine
 
         public bool IsInUseRange(PlayerCharacter character)
         {
-            Vector3 select_pos = GetClosestInteractPoint(character.transform.position);
-            float dist = (select_pos - character.transform.position).magnitude;
+            Vector3 origin = character.GetInteractCenter();
+            Vector3 select_pos = GetClosestInteractPoint(origin);
+            float dist = (select_pos - origin).magnitude;
             return dist <= use_range + character.interact_range;
         }
 

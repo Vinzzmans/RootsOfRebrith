@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System;
+
 
 namespace FarmingEngine
 {
@@ -233,7 +235,7 @@ namespace FarmingEngine
                     if (character_craft.CanBuild())
                         character_craft.StartCraftBuilding();
                     else
-                        InteractWithNearest();
+                        InteractWithCrosshair();                
                 }
 
                 //Press attack
@@ -676,7 +678,6 @@ namespace FarmingEngine
             auto_move_target = can_interact ? selectable : null;
             auto_move_pos = tpos;
             auto_move_pos_next = tpos;
-
             auto_move = true;
             auto_move_drop = -1;
             auto_move_drop_inventory = null;
@@ -686,26 +687,69 @@ namespace FarmingEngine
             auto_move_attack = null;
             CalculateNavmesh();
         }
-
-        public void InteractWithNearest()
+        
+        public void InteractWithCrosshair()
         {
-            bool freelook = TheCamera.Get().IsFreelook();
-            Selectable nearest = null;
+            // Pure crosshair interaction: no nearest fallback
+            Selectable target = GetSelectableFromCrosshair();
 
-            if (freelook)
+            if (target != null && IsInInteractRange(target))
             {
-                nearest = Selectable.GetNearestRaycast();
+                Interact(target);
             }
             else
             {
-                nearest = Selectable.GetNearestAutoInteract(GetInteractCenter(), 5f);
-            }
-
-            if (nearest != null)
-            {
-                Interact(nearest);
+                // optional: keep this log while testing, remove later
+                // Debug.Log("[Interact] No valid target under crosshair (or out of range).");
             }
         }
+        
+        private Selectable GetSelectableFromCrosshair()
+        {
+            Camera cam = Camera.main;
+            Debug.Log("[Interact] Using Camera.main = " + cam.name);
+
+            if (cam == null)
+            {
+                Debug.Log("[Interact] No main camera found");
+                return null;
+            }
+
+            Vector3 screenCenter = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f, 0f);
+            Ray ray = cam.ScreenPointToRay(screenCenter);
+
+            float rayDistance = Mathf.Max(interact_range, 2f) + 3f;
+
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit, rayDistance, ~0, QueryTriggerInteraction.Collide))
+            {
+                Debug.Log($"[Interact] Ray hit: {hit.collider.name} (trigger={hit.collider.isTrigger})");
+
+                Selectable selectable = hit.collider.GetComponentInParent<Selectable>();
+                Debug.Log("[Interact] Selectable via ray: " + (selectable != null ? selectable.name : "NULL"));
+
+                return selectable;
+            }
+
+            Debug.Log("[Interact] Ray hit nothing");
+            return null;
+        }
+
+
+
+        private bool IsInInteractRange(Selectable selectable)
+        {
+            if (selectable == null)
+                return false;
+
+            float maxDist = interact_range + selectable.use_range + 0.05f;
+            float sqrDist = (selectable.transform.position - GetInteractCenter()).sqrMagnitude;
+
+            return sqrDist <= maxDist * maxDist;
+        }
+
+
+
 
         public void Attack()
         {
